@@ -19,7 +19,7 @@ function Header() {
 
   const dispatch = useDispatch();
 
-  console.log({ currentUser });
+  // console.log({ currentUser });
 
   const handleLoginClick = () => {
     dispatch(loginUser({ name: "Jennyfer", email: "jennyfer@lamego.com" }));
